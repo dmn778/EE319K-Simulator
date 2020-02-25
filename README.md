@@ -1,5 +1,9 @@
 # EE319K-Simulator
-Created for EE319K Game Competition for the Fall 2019 semester. This game placed 3rd.
+This bullet hell themed around EE319K was created for EE319K Game Competition for the Fall 2019 semester. This game placed 3rd.
+
+Objective: You are an average student in EE319K. Shoot at the labs to get them done but avoid getting shot by bugs/bad test scores. If you grade drops to 0, you fail the class. If you beat all the labs you pass!
+
+Controls: Use the joystick to move your character and dodge attacks. Careful! If you get hit too much your grade will drop to 0 and you will fail the class. Use button 1 to shoot back at the labs to get them done. Button 2 is a special powerup that temporarily clears all the attacks on the screen.
 
 The game was written in C and played on an ARM-Cortex TM4C Microcontroller.
 The game's main source code is written in Lab8.c
@@ -12,7 +16,6 @@ INPUTS:
   * Two buttons (negative logic)
     ; Shoot button connected to PE1
     ; Power-up button connected to PE2
-  
   
 OUTPUTS:
   * ST7735 1.8″ COLOR TFT DISPLAY
