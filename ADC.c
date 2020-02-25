@@ -72,7 +72,7 @@ uint32_t xADC_In(void){  // is this the mail function??
 	//while(status == -1){}
   ADC0_PSSI_R = 0x0008;            // 1) initiate SS3
   while((ADC0_RIS_R&0x08)==0){};   // 2) wait for conversion done
-  result = ADC0_SSFIFO3_R&0xFFF;   // 3) read result
+  result = ADC0_SSFIFO3_R&0xFFF;   // 3) read result (PD2)
 	//while(status == 1){}
   ADC0_ISC_R = 0x0008;             // 4) acknowledge completion
   return result;
@@ -87,7 +87,7 @@ uint32_t yADC_In(void){  // is this the mail function??
 	//while(status == -1){}
   ADC1_PSSI_R = 0x0008;            // 1) initiate SS3
   while((ADC1_RIS_R&0x08)==0){};   // 2) wait for conversion done
-  result = ADC1_SSFIFO3_R&0xFFF;   // 3) read result (PD2)
+  result = ADC1_SSFIFO3_R&0xFFF;   // 3) read result (PD3)
 	//while(status == 1){}
   ADC1_ISC_R = 0x0008;             // 4) acknowledge completion
   return result;
