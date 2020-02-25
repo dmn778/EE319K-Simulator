@@ -6,7 +6,12 @@ The game's main source code is written in Lab8.c
 
 INPUTS:
   * Joystick
-  * Two buttons
+    ; X connected to PD2
+    ; Y connected to PD3
+    ; Btn unused
+  * Two buttons (negative logic)
+    ; Shoot button connected to PE1
+    ; Power-up button connected to PE2
   
   
 OUTPUTS:
@@ -22,3 +27,4 @@ OUTPUTS:
     ; VCC (pin 2) connected to +3.3 V
     ; Gnd (pin 1) connected to ground
  * (OPTIONAL) DAC for sound output
+    ; PB0-PB5
