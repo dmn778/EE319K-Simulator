@@ -1,5 +1,5 @@
 ; Print.s
-; Student names: Neil Narvekar
+; Student names: Dat Nguyen and Neil Narvekar
 ; Last modification date: 11/10/2019
 ; Runs on LM4F120 or TM4C123
 ; EE319K lab 7 device driver for any LCD
