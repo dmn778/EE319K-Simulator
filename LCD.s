@@ -1,5 +1,5 @@
 ; LCD.s
-; Student names: Neil Narvekar
+; Student names: Dat Nguyen and Neil Narvekar
 ; Last modification date: 11/10/2019
 
 ; Runs on LM4F120/TM4C123
