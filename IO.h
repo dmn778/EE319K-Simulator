@@ -1,9 +1,9 @@
 // IO.h
 // This file has interface for IO module
 // Runs on LM4F120 or TM4C123
-// Program written by: put your names here
+// Program written by: Dat Nguyen and Neil Narvekar
 // Date Created: March 30, 2018
-// Last Modified:  change this line or look silly
+// Last Modified:  12/01/19
 // Lab number: 7
 
 
