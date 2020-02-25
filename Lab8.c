@@ -61,7 +61,7 @@ const char Response1_Spanish[]=">Apenas.";
 const char Taunt2_1_English[]="Did you think it";
 const char Taunt2_1_Spanish[]="Crees que";
 const char Taunt2_2_English[]="would be that easy?";
-const char Taunt2_2_Spanish[]="sería tan fácil?";
+const char Taunt2_2_Spanish[]="serÃ­a tan fÃ¡cil?";
 const char Response2_English[]=">Wait, I didn't say that.";
 const char Response2_Spanish[]=">Apenas.";
 
@@ -283,12 +283,6 @@ StateType BeamAttackStruct[BeamAttackStructSize] = {
 	{0, 0, LEDpurple,LEDdeadpurple, LEDpurplewidth,LEDpurplewidth,0,1,0,0},
 	{0, 0, LEDpurple,LEDdeadpurple, LEDpurplewidth,LEDpurplewidth,0,1,0,0},
 	{0, 0, LEDpurple,LEDdeadpurple, LEDpurplewidth,LEDpurplewidth,0,1,0,0},
-//	{0, 0, LEDpurple,LEDdeadpurple, LEDpurplewidth,LEDpurplewidth,0,1,0,0},
-//	{0, 0, LEDpurple,LEDdeadpurple, LEDpurplewidth,LEDpurplewidth,0,1,0,0},
-//	{0, 0, LEDpurple,LEDdeadpurple, LEDpurplewidth,LEDpurplewidth,0,1,0,0},
-//	{0, 0, LEDpurple,LEDdeadpurple, LEDpurplewidth,LEDpurplewidth,0,1,0,0},
-//	{0, 0, LEDpurple,LEDdeadpurple, LEDpurplewidth,LEDpurplewidth,0,1,0,0},
-//	{0, 0, LEDpurple,LEDdeadpurple, LEDpurplewidth,LEDpurplewidth,0,1,0,0},
 };
 
 const uint32_t CircleAttackStructSize = 27;
@@ -426,17 +420,6 @@ StateType PiazzaStruct[PiazzaStructSize] = {
 	{95, 10, piazza_small,piazza_small_dead, 12,12,0,1,1},
 };
 
-//const uint32_t TracerAttackStructSize = 4;
-//typedef struct State StateType;
-//StateType TracerAttackStruct[WaveAttackStructSize] = {
-//	{0, 0, horizontaltracer,deadhorizontaltracer, horizontaltracerwidth,horizontaltracerheight,0,1,0}, // WAVE attacks
-//	{0, 0, horizontaltracer,deadhorizontaltracer, horizontaltracerwidth,horizontaltracerheight,0,1,0}, 
-//	{0, 0, verticaltracer,deadverticaltracer, verticaltracerwidth,verticaltracerheight,0,1,0},
-//	{0, 0, verticaltracer,deadverticaltracer, verticaltracerwidth,verticaltracerheight,0,1,0},
-//};
-
-
-
 
 //check collision method
 //returns 1 if collision between the two sprites is detected
@@ -461,8 +444,8 @@ int CheckCollision(struct State *rect1, struct State *rect2){
 }
 
 int CheckCollisionNoOffset(struct State *rect1, struct State *rect2){
-	int32_t r1_x = rect1->x; //to account for 2 pixel wide black rectangle on each side of sprite
-	int32_t r1_y = rect1->y; // 1 pixel wide rectangle above and below
+	int32_t r1_x = rect1->x;
+	int32_t r1_y = rect1->y; 
 	int32_t r2_x = rect2->x;
 	int32_t r2_y = rect2->y;
 	uint32_t r1_width = rect1->width;
@@ -480,8 +463,8 @@ int CheckCollisionNoOffset(struct State *rect1, struct State *rect2){
 }
 
 int CheckCollisionNoOffsetFloat(struct State *rect1, struct State_float *rect2){
-	int32_t r1_x = rect1->x; //to account for 2 pixel wide black rectangle on each side of sprite
-	int32_t r1_y = rect1->y; // 1 pixel wide rectangle above and below
+	int32_t r1_x = rect1->x;
+	int32_t r1_y = rect1->y;
 	int32_t r2_x = rect2->x;
 	int32_t r2_y = rect2->y;
 	uint32_t r1_width = rect1->width;
@@ -501,7 +484,7 @@ int CheckCollisionNoOffsetFloat(struct State *rect1, struct State_float *rect2){
 //generate random attack for boss 3
 
 uint32_t valvano_chance = 5; //set higher for higher chance for valvano's ultimate attack
-															// MAX IS 63 DO NO SET ANY HIGHER
+// MAX IS 63 DO NO SET ANY HIGHER
 void generateRandomAttack(){
 do{
 	uint32_t rand = Random();
