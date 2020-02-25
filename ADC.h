@@ -2,8 +2,8 @@
 // Runs on LM4F120/TM4C123
 // Provide functions that initialize ADC0
 
-// Student names: change this to your names or look very silly
-// Last modification date: change this to the last modification date or look very silly
+// Student names: Dat Nguyen and Neil Narvekar
+// Last modification date: 12/05/2019
 #ifndef ADC_H
 #define ADC_H
 #include <stdint.h>
