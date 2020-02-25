@@ -3,7 +3,7 @@
 // You are allowed to use any switch and any LED, 
 // although the Lab suggests the SW1 switch PF4 and Red LED PF1
 // Runs on LM4F120 or TM4C123
-// Program written by: put your names here
+// Program written by: Dat Nguyen and Neil Narvekar
 // Date Created: March 30, 2018
 // Last Modified:  12/01/2019
 // Lab number: 7
