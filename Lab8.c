@@ -1,8 +1,7 @@
 // Lab8.c
 // Runs on LM4F120 or TM4C123
 // Student names: Neil Narvekar, Dat Nguyen
-// Last modification date: 11/10/2019
-// Last Modified: 9/2/2019 
+// Last modification date: 12/06/2019
 
 // Specifications:
 // Measure distance using slide pot, sample at 60 Hz
