@@ -1,5 +1,5 @@
 # EE319K-Simulator
-This bullet hell themed around EE319K was created for EE319K Game Competition for the Fall 2019 semester. This game placed 3rd.
+This bullet hell game themed around EE319K was created for the EE319K Game Competition for the Fall 2019 semester. This game placed 3rd.
 
 Objective: You are an average student in EE319K. Shoot at the labs to get them done but avoid getting shot by bugs/bad test scores. If you grade drops to 0, you fail the class. If you beat all the labs you pass!
 
