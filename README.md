@@ -2,6 +2,7 @@
 Created for EE319K Game Competition for the Fall 2019 semester. This game placed 3rd.
 
 The game was written in C and played on an ARM-Cortex TM4C Microcontroller.
+The game's main source code is written in Lab8.c
 
 INPUTS:
   * Joystick
