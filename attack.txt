@@ -1,0 +1,11 @@
+const uint16_t boss_attack[] = {
+black, black, black, black, black, black, black, black, black, black, black
+black, black, black, black, orange, orange, orange black, black, black, black
+black, black, black, orange, yellow, yellow, yellow, orange, black, black, black
+black, black, orange, yellow, yellow, yellow, yellow, yellow, orange, black, black
+black, black, orange, yellow, yellow, yellow, yellow, yellow, orange, black, black
+black, black, orange, yellow, yellow, yellow, yellow, yellow, orange, black, black
+black, black, black, orange, yellow, yellow, yellow, orange, black, black, black
+black, black, black, black, orange, orange, orange black, black, black, black
+black, black, black, black, black, black, black, black, black, black, black
+}; //11x9
